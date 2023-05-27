@@ -5,6 +5,8 @@ const league_gothic = League_Gothic({subsets: ['latin']})
 const oswald = Oswald({subsets: ['latin']})
 
 export default function App({ Component, pageProps }) {
+
+  console.log("oi")
   return (
   <main className={`${league_gothic.className} ${oswald.className}`}>
     <Component {...pageProps} />
